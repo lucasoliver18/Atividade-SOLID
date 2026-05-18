@@ -1,6 +1,5 @@
 package ISP;
 
-// Entregador só lida com entregas — não implementa o que não usa
 public class Entregador implements IGerenciamentoEntrega {
     @Override
     public void atribuirEntregador(String entregador) {

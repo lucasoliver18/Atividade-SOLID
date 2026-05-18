@@ -1,6 +1,5 @@
 package SRP;
 
-// Responsabilidade: apenas exibir as informações do pedido
 public class PedidoRelatorio {
     public void exibir(Pedido pedido) {
         System.out.println("=== Informações do Pedido ===");

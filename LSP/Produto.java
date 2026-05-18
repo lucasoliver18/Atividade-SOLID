@@ -1,6 +1,5 @@
 package LSP;
 
-// Classe principal — todas as subclasses devem poder substituí-la sem quebrar o sistema
 public class Produto {
     private String nome;
     private double preco;

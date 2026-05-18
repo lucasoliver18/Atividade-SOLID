@@ -1,6 +1,5 @@
 package ISP;
 
-// Gerente tem acesso a todas as responsabilidades do sistema
 public class Gerente implements IGerenciamentoPedido, IGerenciamentoEntrega, IRelatorio, INotificacao {
     @Override
     public void criarPedido(String item) {

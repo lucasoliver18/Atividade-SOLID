@@ -1,6 +1,5 @@
 package ISP;
 
-// Atendente só gerencia pedidos — não implementa o que não usa
 public class Atendente implements IGerenciamentoPedido {
     @Override
     public void criarPedido(String item) {

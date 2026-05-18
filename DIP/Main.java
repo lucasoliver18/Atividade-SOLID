@@ -2,7 +2,6 @@ package DIP;
 
 public class Main {
     public static void main(String[] args) {
-        // Injeção de dependência via construtor — o sistema não sabe qual implementação usa internamente
 
         INotificacao email = new NotificacaoEmail();
         SistemaDelivery sistemaEmail = new SistemaDelivery(email);

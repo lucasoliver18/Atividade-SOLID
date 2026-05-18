@@ -1,6 +1,5 @@
 package DIP;
 
-// Classe de alto nível — depende da abstração INotificacao, nunca de implementações concretas
 public class SistemaDelivery {
     private INotificacao notificacao;
 
